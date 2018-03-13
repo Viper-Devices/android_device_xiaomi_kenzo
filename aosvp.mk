@@ -17,14 +17,17 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-# Inherit some common CypherOS stuff.
-$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
+# Inherit some common ViperOS stuff.
+$(call inherit-product, vendor/aosvp/config/common_full_phone.mk)
+
+# Build type.
+AOSVP_BUILD_TYPE := OFFICIAL
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := aoscp_kenzo
+PRODUCT_NAME := aosvp_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi

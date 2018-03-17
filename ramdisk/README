@@ -1,6 +1,0 @@
-Add these two lines to init.rc file in ramdisk
-
-init.shadow.rc
-init.spectrum.rc
-
-Place shadow.sh in system/etc

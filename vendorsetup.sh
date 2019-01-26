@@ -1,3 +1,3 @@
-add_lunch_combo rr_kenzo-user
-add_lunch_combo rr_kenzo-userdebug
-add_lunch_combo rr_kenzo-eng
+add_lunch_combo viper_kenzo-user
+add_lunch_combo viper_kenzo-userdebug
+add_lunch_combo viper_kenzo-eng
